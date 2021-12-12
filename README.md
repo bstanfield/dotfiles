@@ -7,13 +7,13 @@ This is my hyper-minimal CLI setup. Here's what it accomplishes:
 2. Color palette upgrade
 3. File-type syntax highlighting
 4. Swaps base ls and ll commands for `Exa`
-5. Adds `powerlevel10k` for upgraded prompt*
+5. Adds `powerlevel10k` for upgraded prompt <sup>†</sup>
 6. Adds line numbers and other helpful goodies to vim editor
 
 That's it! Add this stuff and your CLI will look nice.
 
 
-* More details on p10k:
+<sup>†</sup> More details on p10k:
 - Adds current git branch details to prompt
 - Adds useful icons and colors to prompt
 - Upgrades font from default
