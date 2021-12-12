@@ -22,14 +22,25 @@ This is my hyper-minimal CLI setup. **Here's what it accomplishes:**
 #### Install Exa via Brew
 https://the.exa.website/install/macos
 
+```brew install exa```
+
 #### Install P10K via Brew
 https://github.com/romkatv/powerlevel10k#homebrew
+
+```
+brew install romkatv/powerlevel10k/powerlevel10k
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+```
 
 #### Install git via Brew
 (We'll need this to clone the solarized repo)
 
+```brew install git```
+
 ### Clone the solarized/light repo
 https://github.com/altercation/solarized
+
+```git clone https://github.com/altercation/solarized```
 
 ### Create a new "Profile" in iTerm and assign the color palette "Solarized Light"
 More details on how to do this coming soon...
