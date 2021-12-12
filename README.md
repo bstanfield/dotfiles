@@ -35,6 +35,9 @@ You should have these hidden files in your `~/` directory:
 - .zshrc
 - .p10k.zsh
 
+
+
+
 ---
 
 
