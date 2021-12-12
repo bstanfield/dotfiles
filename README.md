@@ -12,22 +12,27 @@ This is my hyper-minimal CLI setup. **Here's what it accomplishes:**
 
 ## Setup
 ### Download iTerm 2
-https://iterm2.com/downloads.html
+- https://iterm2.com/downloads.html
+- Open iTerm (everything else CLI-related will be done in iTerm, not Terminal)
+
+### Download Homebrew
+- https://brew.sh/
+
+### Install critical packages via Homebrew
+#### Install Exa via Brew
+https://the.exa.website/install/macos
+
+#### Install P10K via Brew
+https://github.com/romkatv/powerlevel10k#homebrew
+
+#### Install git via Brew
+(We'll need this to clone the solarized repo)
 
 ### Clone the solarized/light repo
 https://github.com/altercation/solarized
 
 ### Create a new "Profile" in iTerm and assign the color palette "Solarized Light"
 More details on how to do this coming soon...
-
-### Download Homebrew
-https://brew.sh/
-
-### Install Exa via Brew
-https://the.exa.website/install/macos
-
-### Install P10K via Brew
-https://github.com/romkatv/powerlevel10k#homebrew
 
 ### Clone the contents of this repo and place the files in root directory
 You should have these hidden files in your `~/` directory:
