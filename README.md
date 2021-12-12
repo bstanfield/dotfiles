@@ -10,10 +10,13 @@ This is my hyper-minimal CLI setup. Here's what it accomplishes:
 5. Adds `powerlevel10k` for upgraded prompt <sup>†</sup>
 6. Adds line numbers and other helpful goodies to vim editor
 
-That's it! Add this stuff and your CLI will look nice.
+**That's it! Add this stuff and your CLI will look nice.**
 
 
-<sup>†</sup> More details on p10k:
+---
+
+
+<sup>†</sup> _More details on p10k:_
 - Adds current git branch details to prompt
 - Adds useful icons and colors to prompt
 - Upgrades font from default
