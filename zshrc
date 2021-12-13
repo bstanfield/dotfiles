@@ -14,7 +14,7 @@ alias ls="exa ${exaflags}"
 alias hg="history -10000 | grep -i"
 alias ,="cd .."
 alias gs="git status"
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
